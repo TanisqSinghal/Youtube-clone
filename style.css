@@ -34,10 +34,14 @@ nav {
   min-width: 600px;
   padding: 10px 20px;
   border: 0.5px solid #ccc;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 .search button {
   border: none;
   padding: 10px 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .mic {
@@ -68,7 +72,7 @@ nav {
 }
 .tag {
   padding: 5px 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid rgb(22, 22, 22);
 }
 .dark {
